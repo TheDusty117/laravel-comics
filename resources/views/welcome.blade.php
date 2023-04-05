@@ -1,24 +1,26 @@
 @extends('layouts.app')
 
+@section('content')
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-
-<head>
-    <meta charset="utf-8">
+    
+    <head>
+        <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    
     <title>Laravel</title>
-
+    
     <!-- Fonts -->
     <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-
+    
     <!-- Styles -->
     @vite('resources/js/app.js')
-
+    
 </head>
 
 <body>
-
+    
     <main class="bg-light">
         <div class="container">
             <div class="row">
@@ -34,16 +36,18 @@
                         <h1 class="display-5 fw-bold">
                             Welcome to Laravel+Bootstrap 5
                         </h1>
-
+                        
                         <p class="col-md-8 fs-4">This a preset package with Bootstrap 5 views for laravel projects including laravel breeze/blade. It works from laravel 9.x to the latest release 10.x</p>
                         <a href="https://packagist.org/packages/pacificdev/laravel_9_preset" class="btn btn-primary btn-lg" type="button">Documentation</a>
                     </div>
                 </div>
             </div>
-
+            
         </div>
     </main>
-
+    
 </body>
+
+@endsection
 
 </html>

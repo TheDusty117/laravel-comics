@@ -1,14 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fumetto singolo</title>
-</head>
-<body>
-  
-  <h1>FUMETTO SINGOLO</h1>
+@extends('layouts.app')
 
-</body>
-</html>
+@section('content')
+
+<div class="container text-center">
+
+  <h1>FUMETTO SINGOLO</h1>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, aliquam?</p>
+
+</div>
+
+@endsection
