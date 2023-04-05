@@ -9,54 +9,20 @@
 
 <section class="content-section">
     <div class="container">
-      <h2>SONO CONTENT</h2>
-      <div class="row">
-        <ul>
-          <li>
-            <img src="" alt="">
-            <h4>action comics</h4>
+        <ul class="grid">
+          @foreach ($cards as $card)
+          <li class="carta">
+            {{-- <div class="comic-image"> --}}
+                <img src="{{ $card['thumb'] }}" alt="">
+            {{-- </div> --}}
+            <h4 class="card-title">{{ $card['title'] }}</h4>
           </li>
-          <li>
-            <img src="" alt="">
-            <h4>action comics</h4>
-          </li>
-          <li>
-            <img src="" alt="">
-            <h4>action comics</h4>
-          </li>
-          <li>
-            <img src="" alt="">
-            <h4>action comics</h4>
-          </li>
-          <li>
-            <img src="" alt="">
-          </li>
-          <li>
-            <img src="" alt="">
-          </li>
-          <li>
-            <img src="" alt="">
-          </li>
-          <li>
-            <img src="" alt="">
-          </li>
-          <li>
-            <img src="" alt="">
-          </li>
-          <li>
-            <img src="" alt="">
-          </li>
-          <li>
-            <img src="" alt="">
-          </li>
-          <li>
-            <img src="" alt="">
-          </li>
+          @endforeach
         </ul>
-      </div>
     </div>
 </section>
 
-
-
 @endsection
+
+@section('content')
+

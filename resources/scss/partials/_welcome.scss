@@ -8,5 +8,25 @@
     background-color: gray;
 
 
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        gap: 10px;
+    }
+    .card{
+        padding: 15px;
+      }
+
+      .comic-image{
+        object-fit: cover;
+        object-position: top;
+        width: 200px;
+        height: 200px;
+      }
+
+      .card-title{
+        font-size: 18px;
+        text-transform: uppercase;
+      }
 
 }
