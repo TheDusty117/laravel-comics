@@ -46,4 +46,9 @@
         </div>
       </div>
   </section>
+  <section class="hero-section">
+    <img class="jumbo" src="{{ Vite::asset('resources/img/jumbotron.jpg') }}" alt="">
+  </section>
 </header>
+
+

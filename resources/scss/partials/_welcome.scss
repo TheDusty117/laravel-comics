@@ -1,11 +1,10 @@
-.hero-section{
-    background-color: teal;
-    height: 300px;
-}
+
 
 .content-section{
-    height: 800px;
-    background-color: gray;
+    height: 700px;
+    background-color: #1C1C1C;
+    position: relative;
+    z-index: 1;
 
 
     .grid{
@@ -29,4 +28,11 @@
         text-transform: uppercase;
       }
 
+      .carta{
+        img{
+          height: 200px;
+          width: 200px;
+        }
+        color: white;
+      }
 }
