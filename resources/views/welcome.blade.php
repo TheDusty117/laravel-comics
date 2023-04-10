@@ -7,7 +7,7 @@
 
 <section class="content-section">
     <div class="container card-container pt-5">
-        <ul class="grid">
+        <ul class="grid p-0 m-0">
           @foreach ($cards as $card)
           <li class="carta">
             {{-- <div class="comic-image"> --}}
@@ -17,10 +17,8 @@
           </li>
           @endforeach
         </ul>
-        <div>
-          <button>
-            ciao
-          </button>
+        <div class="text-center pt-4">
+          <button type="button" class="btn btn-primary">load more</button>
         </div>
     </div>
 </section>

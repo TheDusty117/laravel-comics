@@ -1,4 +1,7 @@
 <header class="main-header">
+  <section class="brands-section">
+
+  </section>
   <section class="header-section">
       <div class="container pt-3">
           <div class="row justify-content-between align-items-center">
